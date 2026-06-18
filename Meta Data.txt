@@ -1,0 +1,26 @@
+Column Descriptions
+
+Archive_Date
+Description: Date when the data snapshot was recorded.
+Notes: Usually represents end-of-month reporting dates.
+Specialty_HIPE
+Description: Numeric code representing the medical specialty.
+Notes: Used as an identifier instead of the specialty name.
+Specialty_Name
+Description: Name of the medical specialty.
+Examples: Cardiology, Surgery, Pediatrics.
+Case_Type
+Description: Type of medical case.
+Values: Inpatient, Day Case.
+Adult_Child
+Description: Indicates whether the patient is an adult or a child.
+Values: Adult, Child.
+Age_Profile
+Description: Age group classification of patients.
+Examples: 0-15, 16-64, 65+.
+Time_Bands
+Description: Waiting time category for patients.
+Examples: 0-3 Months, 3-6 Months, 6-12 Months, 12+ Months.
+Total
+Description: Number of cases corresponding to the given category combination.
+Notes: Main numerical field used for analysis.
